@@ -2,6 +2,7 @@ html,body{
   margin: 0px;
   padding: 0px;
   height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div{
@@ -12,7 +13,6 @@ div{
 p{
   font-weight: bold;
   font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
     font-weight:bold;
@@ -35,8 +35,7 @@ h1 {
   border: solid black; */
   /* border-width: 3px; */
   margin: 0px;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  /* padding-bottom: 4%; */
   align-content: center;
 }
 
@@ -71,6 +70,8 @@ h1 {
   background-color: white;
   width:auto;
   box-shadow: 0 4px 2px -2px rgb(207, 207, 207);
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .form {
@@ -82,21 +83,42 @@ h1 {
 }
 
 .row{
-  flex: 5;
   display: flex;
   flex-direction: row;
+  gap: 36px;
 }
 
 .input-fields {
   display: flex;
   flex-direction: column;
   padding: 8px;
+  padding-left: 0px;
+  font-size: 20px;
+  font-variant-caps: all-small-caps;
+  color: rgb(107, 107, 107);
 }
 
 .cta-button{
   height: 30px;
   text-align: left;
-  border: solid grey;
   width: fit-content;
+  background-color: rgb(144, 175, 96);
+  color: rgb(248, 248, 248);
+  border-radius: 4px;
+  border-width: 1px;
+  
+}
+
+.cta-button:hover {
+  background-color:#318111;
+}
+
+.cta-button:active {
+  border-color: grey;
+}
+
+.cta{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
   
