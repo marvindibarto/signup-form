@@ -7,23 +7,45 @@
     <title>Index</title>
 </head>
 <body>
-    <h1>This is a dummy html page</h1>
-        <div class="form">
-            <form action="" method="post" class="form">
-                <div class="column">
-                    <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName">
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName">
-                </div>
-                <div class="column"></div>
-                    <label for="password">Password:</label>
-                    <input type="password" id="password">
-                    <label for="confirmPassword">Confirm Password:</label>
-                    <input type="password" id="confirmPassword">
-                </div>
-            </form>
+    <div class="outer">
+        <div class="left-side">Left side</div>
+        <div class="right-side">
+            <div>
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                <p>Sign up <em>now</em> to get started</p>
+                <br>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div class="form-outside">
+                <h1>Let's do this!</h1>
+                <form action="" method="post" class="form">
+                    <div class="row">
+                        <div class="input-fields">
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="firstName">
+                        </div>
+                        <div class="input-fields">
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" id="lastName">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-fields">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password">
+                        </div>
+                        <div class="input-fields">
+                            <label for="confirmPassword">Confirm Password:</label>
+                            <input type="password" id="confirmPassword">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <button class="cta-button">Crate Account</button>
+                <div class="login-message">Already have an account? <a href="google.de">Log in</a>.</div>
+            </div>
         </div>
-    
+    </div>  
 </body>
 </html>
