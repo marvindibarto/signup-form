@@ -41,7 +41,45 @@ h1 {
 
 .left-side{
   width: 40%;
+  height: 100%;
+  background-image: url("pictures/leaves.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.logo{
+  position:absolute;
+  top:30%;
+  background-color: black;
+  opacity: 60%;
+  height: 20%;
+  width: inherit;
+  font-size: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  vertical-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo *{
+  padding: 16px;
+}
+
+.logo img{
+  height: 90%;
+}
+
+.tag{
+  position:absolute;
+  bottom: 5%;
+  color: white;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+
 
 .right-side{
   background-color: rgb(248, 248, 248);
@@ -88,6 +126,11 @@ h1 {
   gap: 36px;
 }
 
+.row .input-fields{
+  margin-right: 36px;
+}
+
+
 .input-fields {
   display: flex;
   flex-direction: column;
@@ -98,14 +141,30 @@ h1 {
   color: rgb(107, 107, 107);
 }
 
+input{
+  padding: 5px;
+  padding-left: 5px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+input:focus{
+  background-color: rgb(173, 216, 230, .1);
+  }
+
 .cta-button{
-  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
   text-align: left;
   width: fit-content;
-  background-color: rgb(144, 175, 96);
+  padding: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: darkolivegreen;
   color: rgb(248, 248, 248);
-  border-radius: 4px;
-  border-width: 1px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  
   
 }
 
@@ -120,5 +179,23 @@ h1 {
 .cta{
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+a:link{
+  font-weight: bold;
+  color: green;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: normal;
+}
+
+a:visited{
+  color: blue;
+}
+
+a:active{
+
 }
   
